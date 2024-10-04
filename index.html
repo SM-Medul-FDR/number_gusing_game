@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+            <!-- =========== player 1 start -->
+    <p class="error"></p>
+    <div class="main_box playerOne">
+        <h2 class="playerName">Player -1</h2>
+        <input onkeydown="inputkey(event)" type="number" class="PlayerOneInput" placeholder="Player One Value">
+        <button  class="PlayerOneButton">Guess</button>
+    </div>
+            <!-- ============ player 1 end -->
+
+
+             <!-- ============= player 2 start -->
+    <div class="main_box playerTwo">
+        <p class="chance">Your chance left <span class="chanceCount"></span>/5</p>
+        <h2 class="playerName">Player -2</h2>
+        <input onkeydown="Inputkey(event)" type="number" class="PlayerTwoInput" placeholder="Player Two Value">
+        <button class="PlayerTwoButton">Guess</button>
+    </div>
+            <!-- ========== player 2 end -->
+
+
+             <!-- ============ player 3 start -->
+    <div class="main_box playerThree">
+        <p class="chancE">Your chance left <span class="chanceCounT"></span>/5</p>
+        <h2 class="playerName">Player -3</h2>
+        <input onkeydown="INputkey(event)" type="number" class="PlayerThreeInput" placeholder="Player Three Value">
+        <button class="PlayerThreeButton">Guess</button>
+    </div>
+            <!-- ============ player 3 end -->
+
+
+
+            <!-- ============ winner start -->
+    <div class="Wresult">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/e70bcc65284623.5aef51b58b0c9.gif" alt="winner">
+        <h2 class="winR"></h2>
+    </div>
+            <!-- ============ winner end -->
+ 
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main_box{
+    width: 500px;
+    padding: 30px;
+    border: 2px solid rgba(215, 17, 40, 0.881);
+    border-radius: 10px;
+}
+.main_box .playerName{
+    font-size: 30px;
+    font-weight: 600;
+    color: floralwhite;
+
+}
+.main_box input{
+    width: 400px;
+    height: 70px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: aliceblue;
+
+}
+.main_box button{
+    padding: 5px 15px;
+    background: #E6B9A6;
+    font-size: 18px;
+    font-weight: 600;
+    color:#2F3645 ;
+    border: none;
+    border-radius: 5px;
+}
+.main_box button:active{
+    transform: scale(1.1);
+}
+.error{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.playerTwo{
+    display: none;
+}
+.playerThree{
+    display: none;
+}
+
+
+.winR{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.Wresult{
+    display: none ;
+}
+
+ 
+.chance{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-align: right;
+}
+.chancE{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-align: right; 
+}
+.playerTwo span{
+    margin-left: 20px;
+}
+.playerThree span{
+    margin-left: 20px;
+}
+
+
+
